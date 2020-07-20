@@ -1,0 +1,20 @@
+// 예제 코드 9.4  JSX로 작성하는 Menu 컴포넌트를 위한 package.json 파일
+
+{
+  "name": "menu-jsx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel script.jsx -o script.js -w"
+  },
+  "author": "Azat Mardan",
+  "license": "MIT",
+  "babel": {
+    "presets": ["react"]
+  },
+  "devDependencies": {
+    "babel-cli": "6.9.0",
+    "babel-preset-react": "6.5.0"
+  }
+}
