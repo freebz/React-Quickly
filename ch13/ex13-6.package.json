@@ -1,0 +1,15 @@
+// 예제 코드 13.6  Webpack 버전 1, React Router 버전 2.6, React 버전 15.2와 JSX를 위한 의존 모듈 설정하기
+
+{
+  ...
+  "devDependencies": {
+    "babel-core": "6.11.4",
+    "babel-loader": "6.2.4",
+    "babel-preset-react": "6.5.0",
+    "history": "2.1.2",
+    "react": "15.2.1",
+    "react-dom": "15.2.1",
+    "react-router": "2.6.0",
+    "webpack": "1.12.9"
+  }
+}
