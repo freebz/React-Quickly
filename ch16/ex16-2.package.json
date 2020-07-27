@@ -1,0 +1,17 @@
+// 예제 코드 16.2  테스트 CLI 명령 저장하기
+
+{
+  "name": "jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node -e \"console.log(require('./generate-password.js')())\""
+  },
+  "author": "Azat Mardan",
+  "license": "MIT",
+  "devDependencies": {
+    "jest-cli": "19.0.2"
+  }
+}
