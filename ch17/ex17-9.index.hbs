@@ -1,0 +1,42 @@
+{{!-- 예제 코드 17.9  React 컴포넌트로 생성한 HTML을 렌더링하기 위한 서버 측 레이아웃 --}}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta tags and CSS -->
+    <meta charset="utf-8" />
+    <title>Message Board with React.js</title>
+    <meta name="description" content="Message Board" />
+    <meta name="author" content="Azat Mardan" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="/css/bootstrap-responsive.min.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- header -->
+      <div class="row-fluid">
+        <div class="span12">
+          <div id="header">{{{header}}}</div>
+        </div>
+      </div>
+      <!-- props -->
+      <div>{{{props}}}</div>
+      <!-- messageBoard -->
+      <div class="row-fluid">
+        <div class="span12">
+          <div id="content">
+            <div class="row-fluid" id="message-board" />{{{messageBoard}}}
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <div class="row-fluid">
+        <div class="span12">
+          <div id="footer">{{{footer}}}</div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="/js/bundle.js"></script>
+  </body>
+</html>
