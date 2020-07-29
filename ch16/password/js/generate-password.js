@@ -31,7 +31,7 @@ const shuffle = (set) => {
     let shuffled = iterable.reduce((acc, value, index) => {
         let randomIndex = Math.floor(Math.random() * value)
 
-        [acc[value -1], acc[randomIndex]] = [acc[randomIndex], acc[value - 1]]
+        ;[acc[value -1], acc[randomIndex]] = [acc[randomIndex], acc[value - 1]]
 
         return acc
     }, [...array])
